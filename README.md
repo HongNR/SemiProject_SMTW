@@ -101,21 +101,9 @@
   ![qna질문내용검색](https://user-images.githubusercontent.com/118409545/216254867-cac1c1ef-8c6d-42e8-8d41-9b23898efd79.JPG)   
   
   검색 키워드에 포함된 글을 모두 보여준다.(공지사항도 동일)
-  
-  
-  **6-1. 질문하기 내 Q&A 댓글**  
-  ![qna댓글수카운트](https://user-images.githubusercontent.com/118409545/216254865-24031283-6c5d-4700-8922-d75f00b6f5ff.JPG)
-  
-  Q&A 댓글 수를 볼 수 있도록 Count하였다.
-  
-  ![qna댓글등록](https://user-images.githubusercontent.com/118409545/216254860-00e2c47c-a50c-4cd0-8bcd-121f21fd62d7.JPG)
-  ![답글등록](https://user-images.githubusercontent.com/118409545/216254886-a7cc373a-84eb-4fc2-b1a6-738c99423cc2.JPG)
-  
-  Q&A 댓글 및 답글은 로그인 한 사용자만 달 수 있다. 
-  댓글과 답글에 Level을 설정해 댓글을 쓴 순서대로 출력된다.
      
   
-  **6-2. 질문하기 내 FAQ 화면 및 수정**   
+  **6-1. 질문하기 내 FAQ 화면 및 수정**   
   ![faq질문하기](https://user-images.githubusercontent.com/118409545/216254855-1e9c53f7-c3c0-41b7-a65a-126a8b0bd9f5.JPG) 
   ![faq질문수정](https://user-images.githubusercontent.com/118409545/216254849-53d354ad-eca1-4b53-a90e-08536d0ef37c.JPG)
   
@@ -151,23 +139,37 @@
   
   <details>
     <summary>댓글 관련</summary>   
+  
+  
+  **1. 질문하기 내 Q&A 댓글**  
+  ![qna댓글수카운트](https://user-images.githubusercontent.com/118409545/216254865-24031283-6c5d-4700-8922-d75f00b6f5ff.JPG)
+  
+  Q&A 댓글 수를 볼 수 있도록 Count하였다.
+  
+  ![qna댓글등록](https://user-images.githubusercontent.com/118409545/216254860-00e2c47c-a50c-4cd0-8bcd-121f21fd62d7.JPG)
+  ![답글등록](https://user-images.githubusercontent.com/118409545/216254886-a7cc373a-84eb-4fc2-b1a6-738c99423cc2.JPG)
+  
+  Q&A 댓글 및 답글은 로그인 한 사용자만 달 수 있다. 
+  댓글과 답글에 Level을 설정해 댓글을 쓴 순서대로 출력된다.
        
   **1. 댓글 작성 화면**   
   미로그인 사용자 화면   
-  ![image](https://user-images.githubusercontent.com/59757689/156977476-37db357a-ac44-4b24-ad8c-a062d4fe99cf.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156977497-cc7fc2a7-e688-4733-b4c7-8aef4fba93e3.png)   
+  ![로그인사용자만댓글](https://user-images.githubusercontent.com/118409545/216262943-eac4bc56-a93e-4f18-bed9-c79b05fde9e9.JPG)
+  
   댓글은 로그인 한 사용자만 달 수 있으며, 댓글 작성시 현재 페이지를 reload 한다.   
   
   **2. 댓글 수정**   
-  ![image](https://user-images.githubusercontent.com/59757689/156977557-8a3dae77-9a8d-4fd3-824e-8ff22606609e.png)   
+  ![댓글1](https://user-images.githubusercontent.com/118409545/216263576-22ee2f89-aee1-41fd-86dc-9eb5bb93e668.JPG)
+  
+  ![당사자만댓글](https://user-images.githubusercontent.com/118409545/216263572-c854a3c8-508c-4a47-9101-27c89de038fd.JPG)
+  
   다른 사용자는 다른 사람의 댓글을 수정/삭제할 수 없다.   
-  ![image](https://user-images.githubusercontent.com/59757689/156977567-fd983777-5b04-4f57-a815-c89a59697377.png)   
-  수정은 댓글 작성자만이 할 수 있다. 수정 완료 후 현재 페이지를 reload 한다.   
+  
   
   **3. 댓글 삭제**   
-  ![image](https://user-images.githubusercontent.com/59757689/156977655-8125a317-344e-4721-a836-46b36df3a3b5.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156977661-5008733b-2932-4bfc-be01-60a33a093dc9.png)   
-  삭제 또한 댓글 작성자만이 할 수 있다. 삭제 후 현재 페이지를 reload 한다.   
+  ![댓글삭제](https://user-images.githubusercontent.com/118409545/216263578-1edfb9f1-e9e3-4338-876a-d8d4c85e9439.JPG)
+  
+  삭제는 댓글 작성자와 관리자만이 할 수 있다. 삭제 후 현재 페이지를 reload 한다.   
            
   </details>
   <br/>   
