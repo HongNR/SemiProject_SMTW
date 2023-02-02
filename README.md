@@ -13,10 +13,8 @@
   - [실행 화면](#4-실행-화면)   
 
 
-- [구조 및 설계](#구조-및-설계)
-  - [패키지 구조](#1-패키지-구조)
-  - [DB 설계](#2-db-설계)
-  - [API 설계](#3-api-설계)
+- [설계](#설계)
+  - [DB 설계](#-db-설계)
 
 - [개발 내용](#개발-내용)
 
@@ -169,11 +167,11 @@
   <br/>   
  
    
-## 구조 및 설계   
+## 설계   
    
 
      
- ### 2. DB 설계
+ ### DB 설계
 
 [테이블 정의서 12.22.pdf](https://github.com/HongNR/SemiProject_SMTW/files/10566493/12.22.pdf)
 ![세미ERD](https://user-images.githubusercontent.com/118409545/216326549-3c3a7fbd-070d-45d5-ae0b-88ee86c80eb2.JPG)
@@ -183,11 +181,6 @@ ERD
    
 <br/>
 
-### 3. API 설계
-
-![게시글 관련 API 설계](https://user-images.githubusercontent.com/59757689/156749365-5e4cee67-1431-4e3a-9140-7b58b6e1fd53.PNG)    
-![회원 관련 API 설계 (2)](https://user-images.githubusercontent.com/59757689/148911411-0cfb65ee-5782-4f04-a7c9-7dcc84abfed8.PNG)   
-![댓글 관련 API 설계](https://user-images.githubusercontent.com/59757689/148911410-9a7729af-bb3c-49e3-b180-c52ea12ee75c.PNG)   
 
 ## 개발 내용
 
