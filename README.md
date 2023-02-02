@@ -42,22 +42,24 @@
 
 #### 3-1 백엔드
 
-##### 주요 프레임워크 / 라이브러리
+##### 개발 환경 및 라이브러리
 - Java 11
-- Eclipse
+- SpringBoot 2.5.6
 - JPA(Spring Data JPA)
+- Spring Security
+- OAuth 2.0
+- jQuery 3.6.1
+- WAS : Tomcat 9.0
 
 ##### Build Tool
 - Gradle 7.2
+- Eclipse IDE 2022-09
+- Oracle Sql Developer
+- Visual Studio Code
 
 ##### DataBase
 - MySQL 8.0.19
-
-#### 3-2 프론트엔드
-- Html/Css
-- JavaScript
-- Mustache
-- Bootstrap 4.3.1
+- Orcale DB
 
 
 ### 4. 실행 화면
