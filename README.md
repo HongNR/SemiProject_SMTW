@@ -66,42 +66,55 @@
   
   전체 목록을 페이징 처리하여 조회할 수 있다.(질문하기 게시판도 동일)
      
+  
   **2. 공지사항 등록**   
   ![공지사항 글](https://user-images.githubusercontent.com/118409545/216254874-b0770302-69dc-44df-8cc4-b3d8ffa84ea8.JPG)
   
   공지사항은 관리자만 새로운 글을 작성할 수 있고, 작성 후 목록 화면으로 redirect한다. 
+  
   질문하기는 로그인 한 회원만 글 작성이 가능하다.
      
+  
   **3. 공지사항 상세보기**   
   ![공지사항 관리자](https://user-images.githubusercontent.com/118409545/216254870-f9c51195-cae4-4147-a9ce-ee9785f5abf8.JPG)
   
   공지사항은 관리자만 글 수정 및 삭제가 가능하다.
      
+  
    **4. 공지사항 수정 화면**   
   ![공지사항 글 수정](https://user-images.githubusercontent.com/118409545/216254871-5fb3531a-5810-4b17-972a-2ed8591776c5.JPG)  
   
   제목과 내용만 수정할 수 있게 하고, Confirm으로 수정 여부를 확인 후 상세보기 화면으로 redirect 한다. 
+  
   질문하기는 글을 쓴 작성자만 내용 수정이 가능하다.
+  
   
   **5. 공지사항 삭제 화면**   
   ![공지사항 삭제](https://user-images.githubusercontent.com/118409545/216254876-fe55e412-115b-4406-b0f6-f871f0e7a9fd.JPG)   
   
   Confirm으로 삭제할지 확인하고, 삭제 후 전체 목록 리스트 화면으로 redirect 한다.
+  
   질문하기는 글을 쓴 작성자와 관리자만 글 삭제가 가능하다.
+  
   
   **6. 질문하기 내 Q&A 검색 화면**   
   ![qna질문내용검색](https://user-images.githubusercontent.com/118409545/216254867-cac1c1ef-8c6d-42e8-8d41-9b23898efd79.JPG)   
   
   검색 키워드에 포함된 글을 모두 보여준다.(공지사항도 동일)
   
+  
   **6-1. 질문하기 내 Q&A 댓글**  
   ![qna댓글수카운트](https://user-images.githubusercontent.com/118409545/216254865-24031283-6c5d-4700-8922-d75f00b6f5ff.JPG)
+  
+  Q&A 댓글 수를 볼 수 있도록 Count하였다.
+  
   ![qna댓글등록](https://user-images.githubusercontent.com/118409545/216254860-00e2c47c-a50c-4cd0-8bcd-121f21fd62d7.JPG)
   ![답글등록](https://user-images.githubusercontent.com/118409545/216254886-a7cc373a-84eb-4fc2-b1a6-738c99423cc2.JPG)
   
-  Q&A 댓글 수를 볼 수 있도록 Count하였다.
-  Q&A 댓글 및 답글은 로그인 한 사용자만 달 수 있다. 댓글과 답글에 Level을 설정해 댓글을 쓴 순서대로 출력된다.
+  Q&A 댓글 및 답글은 로그인 한 사용자만 달 수 있다. 
+  댓글과 답글에 Level을 설정해 댓글을 쓴 순서대로 출력된다.
      
+  
   **6-2. 질문하기 내 FAQ 화면 및 수정**   
   ![faq질문하기](https://user-images.githubusercontent.com/118409545/216254855-1e9c53f7-c3c0-41b7-a65a-126a8b0bd9f5.JPG) 
   ![faq질문수정](https://user-images.githubusercontent.com/118409545/216254849-53d354ad-eca1-4b53-a90e-08536d0ef37c.JPG)
