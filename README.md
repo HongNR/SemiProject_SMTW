@@ -129,25 +129,19 @@
     <summary>회원 관련</summary>   
      
   **1. 회원가입 화면**   
-  ![image](https://user-images.githubusercontent.com/59757689/156976413-78b9e0e9-2ab1-47e0-a0cd-699ebacddb79.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156976436-fafec47f-3df3-4356-83d5-eb80e1aa2276.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156976548-3a440a6c-49d0-4e5c-9eb3-d5e3524c11b6.png)   
-  회원가입 시 유효성 검사 및 중복확인을 진행하며 완료시 회원 정보를 저장하고 로그인 화면으로 이동한다.   
+  ![회원가입유효성1](https://user-images.githubusercontent.com/118409545/216260599-59b7045b-40a0-433b-970c-2bbac5ae9131.JPG)
+  ![회원가입유효성2](https://user-images.githubusercontent.com/118409545/216260601-0ee75506-670f-4095-9aec-eda0ddf18831.JPG)
+  회원가입 시 유효성 검사 및 중복확인을 진행한다.
+  
+  ![회원가입유효성3](https://user-images.githubusercontent.com/118409545/216261584-045d5753-4331-472f-9103-c4cd99f0bcfd.JPG)
+  ![회원가입유효성4](https://user-images.githubusercontent.com/118409545/216261593-3f091ccc-2558-42ee-b9e7-1014396160b0.JPG)
+  이메일 인증을 진행한 후 중복된 이메일이면 focus로 돌아간다.
+  
+  완료시 회원 정보를 저장하고 로그인 화면으로 이동한다.   
      
   **2. 로그인 화면**   
-  ![image](https://user-images.githubusercontent.com/59757689/156976619-6988837d-0dfe-4600-a63c-2e287db9c88e.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156976909-51b0d06c-502f-4e42-b0dd-516834e43efe.png)   
-  로그인 실패시 어떤 이유로 실패 했는지 메시지가 나오고, 로그인에 성공하면 게시글 전체 리스트 화면으로 redirect 한다.   
-     
-  **2-1. OAuth 2.0 소셜 로그인 화면**   
-  ![image](https://user-images.githubusercontent.com/59757689/156976991-c517d254-b4b8-4a34-99fd-2684856f2a2d.png)   
-  ![image](https://user-images.githubusercontent.com/59757689/156977007-7b44d157-f29c-4a43-9fd3-aa6b743a8fb8.png)   
-  구글과 네이버 로그인이 가능하다.   
-     
-  **3. 회원정보 수정 화면**   
-  ![image](https://user-images.githubusercontent.com/59757689/156977253-d1a4de93-da30-4adf-8634-dfe10d0635a8.png)   
-  닉네임과 비밀번호만 변경할 수 있고, 변경된 닉네임이 이미 사용중일 경우 alert으로 현재 사용 중임을 알려주고,   
-  완료시 게시글 전체 리스트 화면으로 redirect 한다.      
+  ![로그인유효성](https://user-images.githubusercontent.com/118409545/216260604-b661e733-b1db-49e7-b9a6-3d65dbd9b9c4.JPG) 
+  로그인 실패시 어떤 이유로 실패 했는지 메시지가 나오고, 로그인에 성공하면 메인화면으로 redirect 한다.   
            
   </details>
   <br/>   
