@@ -176,7 +176,9 @@
  ### 2. DB 설계
 
 [테이블 정의서 12.22.pdf](https://github.com/HongNR/SemiProject_SMTW/files/10566493/12.22.pdf)
+![세미ERD](https://user-images.githubusercontent.com/118409545/216326549-3c3a7fbd-070d-45d5-ae0b-88ee86c80eb2.JPG)
 
+ERD
 
    
 <br/>
