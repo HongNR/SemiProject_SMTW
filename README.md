@@ -44,21 +44,15 @@
 
 ##### 개발 환경 및 라이브러리
 - Java 11
-- SpringBoot 2.5.6
-- JPA(Spring Data JPA)
-- Spring Security
-- OAuth 2.0
 - jQuery 3.6.1
 - WAS : Tomcat 9.0
 
 ##### Build Tool
-- Gradle 7.2
 - Eclipse IDE 2022-09
 - Oracle Sql Developer
 - Visual Studio Code
 
 ##### DataBase
-- MySQL 8.0.19
 - Orcale DB
 
 
