@@ -145,12 +145,6 @@
   ![qna댓글수카운트](https://user-images.githubusercontent.com/118409545/216254865-24031283-6c5d-4700-8922-d75f00b6f5ff.JPG)
   
   Q&A 댓글 수를 볼 수 있도록 Count하였다.
-  
-  ![qna댓글등록](https://user-images.githubusercontent.com/118409545/216254860-00e2c47c-a50c-4cd0-8bcd-121f21fd62d7.JPG)
-  ![답글등록](https://user-images.githubusercontent.com/118409545/216254886-a7cc373a-84eb-4fc2-b1a6-738c99423cc2.JPG)
-  
-  Q&A 댓글 및 답글은 로그인 한 사용자만 달 수 있다. 
-  댓글과 답글에 Level을 설정해 댓글을 쓴 순서대로 출력된다.
        
   **1. 댓글 작성 화면**   
   미로그인 사용자 화면   
