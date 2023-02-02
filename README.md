@@ -184,26 +184,25 @@ ERD
 
 ## 개발 내용
 
-- <a href="https://dev-coco.tistory.com/111" target="_blank">게시판 프로젝트 명세서 정리</a>
-- <a href="https://dev-coco.tistory.com/113" target="_blank">게시판 조회수 기능 추가</a>
-- <a href="https://dev-coco.tistory.com/114" target="_blank">게시판 페이징 처리 구현</a>
-- <a href="https://dev-coco.tistory.com/115" target="_blank">게시판 검색처리 및 페이징 구현</a>
-- <a href="https://dev-coco.tistory.com/117" target="_blank">생성, 수정시간 LocalDateTime format 변경</a>
-- <a href="https://dev-coco.tistory.com/120" target="_blank">Security 회원가입 및 로그인 구현</a>
-- <a href="https://dev-coco.tistory.com/121" target="_blank">Security Mustache CSRF 적용 및 문제해결</a>
-- <a href="https://dev-coco.tistory.com/122" target="_blank">커스텀 어노테이션을 통해 중복코드 개선</a>
-- <a href="https://dev-coco.tistory.com/124" target="_blank">회원가입 Validation 유효성 검사</a>
-- <a href="https://dev-coco.tistory.com/125" target="_blank">회원가입 Validation 커스터마이징 중복 검사</a>
-- <a href="https://dev-coco.tistory.com/126" target="_blank">Security 로그인 실패시 메시지 출력하기</a>
-- <a href="https://dev-coco.tistory.com/127" target="_blank">Security 회원정보 수정(ajax)</a>
-- <a href="https://dev-coco.tistory.com/128" target="_blank">OAuth 2.0 구글 로그인 구현</a>
-- <a href="https://dev-coco.tistory.com/129" target="_blank">OAuth 2.0 네이버 로그인 구현</a>
-- <a href="https://dev-coco.tistory.com/130" target="_blank">JPA 연관관계 매핑으로 글 작성자만 수정, 삭제 가능하게 하기</a>
-- <a href="https://dev-coco.tistory.com/133" target="_blank">JPA 양방향 순환참조 문제 및 해결</a>
-- <a href="https://dev-coco.tistory.com/132" target="_blank">게시판 댓글 작성 및 조회 구현</a>
-- <a href="https://dev-coco.tistory.com/134" target="_blank">게시판 댓글 수정 및 삭제 구현</a>
-- <a href="https://dev-coco.tistory.com/136" target="_blank">게시판 댓글 작성자만 수정, 삭제 가능하게 하기</a>
-- <a href="https://dev-coco.tistory.com/138" target="_blank">[리팩토링]Dto Class를 Inner Class로 한번에 관리하기</a>
+[ 회원 관리 ]
+- 회원 가입 페이지 구현 : 아이디 정규화 및 중복검사 Ajax 처리 구현
+  비밀번호 정규화 및 일치여부 확인 구현, 패스워드 암호화 사용
+- 주소 입력 기능 구현(다음API 사용)
+- 이메일 인증 구현(javax mail사용/ Ajax 처리), 각 항목 유효성 검사 후 회원가입 가능
+- 로그인 / 로그아웃 구현 : 로그인이 입력된 정보가 없다면 로그인 불가
+  로그인 후 로그아웃 시 세션삭제 기능 구현
+- 아이디 찾기 구현 : 이름 입력 후 이메일 인증(Ajax 처리)으로 아이디 찾기 기능 구현
+- 비밀번호 초기화 구현 : 이름, 아이디 입력 후 이메일 인증(Ajax 처리)으로 비밀번호 초기화 기능 구현
+
+[공지사항 , Q&A , FAQ 게시판 ]
+- 관리자만 공지사항 글 작성(summernote API 사용) ,글 삭제, 글 수정 기능 구현
+- 관리자만 FAQ 내용 수정할 수 있도록 기능 구현
+- 게시글 작성자와 관리자에게는 게시글 수정, 삭제 권한 부여
+- 페이징 처리
+- 제목 , 내용, 작성자별 검색 후 페이징 유지
+- 이전글 , 다음글 기능 구현
+- Q&A 댓글 , 답글 작성&삭제 기능 구현
+- 메인 화면에 Ajax 이용하여 공지사항, Q&A 리스트 출력
 
 ## 마치며   
 ### 1. 프로젝트 보완사항   
