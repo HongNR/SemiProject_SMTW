@@ -131,16 +131,19 @@
   **1. 회원가입 화면**   
   ![회원가입유효성1](https://user-images.githubusercontent.com/118409545/216260599-59b7045b-40a0-433b-970c-2bbac5ae9131.JPG)
   ![회원가입유효성2](https://user-images.githubusercontent.com/118409545/216260601-0ee75506-670f-4095-9aec-eda0ddf18831.JPG)
+  
   회원가입 시 유효성 검사 및 중복확인을 진행한다.
   
   ![회원가입유효성3](https://user-images.githubusercontent.com/118409545/216261584-045d5753-4331-472f-9103-c4cd99f0bcfd.JPG)
   ![회원가입유효성4](https://user-images.githubusercontent.com/118409545/216261593-3f091ccc-2558-42ee-b9e7-1014396160b0.JPG)
+  
   이메일 인증을 진행한 후 중복된 이메일이면 focus로 돌아간다.
   
   완료시 회원 정보를 저장하고 로그인 화면으로 이동한다.   
      
   **2. 로그인 화면**   
   ![로그인유효성](https://user-images.githubusercontent.com/118409545/216260604-b661e733-b1db-49e7-b9a6-3d65dbd9b9c4.JPG) 
+  
   로그인 실패시 어떤 이유로 실패 했는지 메시지가 나오고, 로그인에 성공하면 메인화면으로 redirect 한다.   
            
   </details>
